@@ -1,13 +1,13 @@
 name: "CodeQL Analysis"
 
-permissions:
-    actions: read
-
 on:
     push:
         branches: [main]
     pull_request:
         branches: [main]
+
+permissions:
+    actions: read
 
 jobs:
     analyze:
