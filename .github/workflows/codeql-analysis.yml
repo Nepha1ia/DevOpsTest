@@ -1,5 +1,8 @@
 name: "CodeQL Analysis"
 
+permissions:
+    actions: read
+
 on:
     push:
         branches: [main]
