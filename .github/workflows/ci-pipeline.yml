@@ -21,6 +21,9 @@ jobs:
       - name: Run a basic test
         run: echo "CI Pipeline Running!"
 
+      - name: Run tests with bash script
+        run: bash test_script.sh
+
       - name: Run Unit tests
         run: |
           pip install pytest
